@@ -1,5 +1,5 @@
 #navigation-table {
-    background-color: bisque;
+    background-color:darkseagreen ;
     border: 0;
     border-collapse: collapse;
     border-spacing: 0;
@@ -31,4 +31,10 @@
 
 #logo {
     display:block; margin:0 auto;
+}
+
+.social {
+    position: relative;
+    float: right;
+    font-size: 25px;  
 }
