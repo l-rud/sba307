@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../styles/navigation.css">
     <style>
         body {
-          background-color: lightgrey;
+          background-color: white;
           background-size:100%;
         }
     </style>
@@ -22,19 +22,25 @@
             <td><img id="logo" src="../images/logo.png" /></td>
             <td id="menu-td">
                 <div id="menu">
-                    <span>
-                        Page 1
+                    <span class="menuspan">
+                        About
+                    </span>
+                    <span class="menuspan">
+                        <a href="page2.html">Classes</a>
+                    </span>
+                    <span class="menuspan">
+                        <a href="page3.html">Contacts</a>
                     </span>
                     <span>
-                        <a href="page2.html">Page 2</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">Events</button>
+                            <div class="dropdown-content">
+                              <a href="page4.html">Past Events</a>
+                              <a href="page5.html">Future Events</a>
+                            </div>
+                          </div>
                     </span>
-                    <span>
-                        <a href="page3.html">Page 3</a>
-                    </span>
-                    <span>
-                        <a href="page4.html">Page 4</a>
-                    </span>
-                    <span>
+                    <span class="menuspan">
                         <a href="login.html">Logout</a>
                     </span>
                     <span class="social">
