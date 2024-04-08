@@ -1,0 +1,76 @@
+#caption1 {
+  font-size: 26px;
+  font-weight: bolder;
+  padding: 10px;
+}
+#caption1 {
+  font-size: 26px;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-left: 20px;
+}
+
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 20px;
+ 
+  overflow: hidden;
+  padding: 10px 5px;
+}
+
+thead {
+  text-align: center;
+  font-weight: bold;
+}
+
+#main_container {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  background-color:bisque;
+}
+
+#section1 {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#box1 {
+  flex-grow: ;
+  margin: 2px;
+  border: 1px solid black;
+  background-color:darkolivegreen;
+}
+
+
+#box2 {
+  flex-grow: 1;
+  margin: 2px;
+  border: 1px solid black;
+  background-color:chocolate;
+}
+
+
+#box3 {
+  width: 100%;
+  margin: 2px;
+  border: 1px solid black;
+  background-color: darkgreen;
+}
+
+#sections-2-3 {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
