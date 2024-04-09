@@ -5,8 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Past events</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../styles/events.css">
     <link rel="stylesheet" href="../styles/navigation.css">
+    <style>
+        body {
+            background-color: darkgoldenrod;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,21 +21,34 @@
             <td><img id="logo" src="../images/logo.png" /></td>
             <td id="menu-td">
                 <div id="menu">
-                    <span>
+                    <span class="menuspan">
                         <a href="page1.html">About</a>
                     </span>
-                    <span>
+                    <span class="menuspan">
                         <a href="page2.html">Classes</a>
                     </span>
-                    <span>
+                    <span class="menuspan">
                         <a href="page3.html">Contacts</a>
                     </span>
                     <span>
-                        Events
+                        <div class="dropdown">
+                            <button class="dropbtn">Events</button>
+                            <div class="dropdown-content">
+                                <a href="page4.html">Future Events</a>
+                                <a href="pastEvents.html">Past Events</a>
+                            </div>
+                        </div>
                     </span>
-                    <span>
+                    <span class="menuspan">
                         <a href="login.html">Logout</a>
                     </span>
+                    <span class="social">
+                        <a href="https://rb.gy/bnue9w" class="fa fa-facebook"></a>
+                        <a href="https://rb.gy/aedp3s" class="fa fa-instagram"></a>
+                        <a href="https://rb.gy/01ppar" class="fa fa-youtube"></a>
+                        <img id="flag" src="../images/Ukraine-l.gif" />
+                    </span>
+
                 </div>
             </td>
         </tr>
